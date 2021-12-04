@@ -8,6 +8,12 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+    <ImageButton
+        android:id="@+id/imagesvg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_spinner_solid"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

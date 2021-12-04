@@ -2,6 +2,7 @@ package com.example.mediaplayer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -52,5 +53,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         stopPlayer();
+    }
+
+    public void video(View view) {
+        Intent intent = new Intent(this, video.class);
+        startActivity(intent);
     }
 }

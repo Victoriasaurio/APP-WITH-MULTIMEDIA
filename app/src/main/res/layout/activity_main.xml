@@ -29,4 +29,11 @@
         android:text="Stop"
         android:onClick="stop" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idVideo"
+        android:text="Video"
+        android:onClick="video" />
+
 </LinearLayout>

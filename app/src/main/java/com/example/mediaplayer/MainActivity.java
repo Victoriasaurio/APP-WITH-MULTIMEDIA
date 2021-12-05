@@ -93,4 +93,9 @@ public class MainActivity extends AppCompatActivity {
         });
         animatorSetRotator.start();
     }
+
+    public void audio(View view) {
+        Intent intent = new Intent(this, Audio.class);
+        startActivity(intent);
+    }
 }

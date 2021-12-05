@@ -12,7 +12,8 @@
         android:id="@+id/imagesvg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_spinner_solid"/>
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/ic_compact_disc_solid" />
 
     <Button
         android:layout_width="wrap_content"
@@ -36,10 +37,17 @@
         android:onClick="stop" />
 
     <Button
+        android:id="@+id/idVideo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/idVideo"
-        android:text="Video"
-        android:onClick="video" />
+        android:onClick="video"
+        android:text="Video" />
+
+    <Button
+        android:id="@+id/idAudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="audio"
+        android:text="Grabar Audio" />
 
 </LinearLayout>

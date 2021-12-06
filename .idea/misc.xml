@@ -9,8 +9,9 @@
         <entry key="app/src/main/res/drawable/ic_spinner_solid.xml" value="0.1828125" />
         <entry key="app/src/main/res/drawable/ic_stop_solid.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_stop_solid_peq.xml" value="0.11296296296296296" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/audio.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/temperature.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/video.xml" value="0.16394927536231885" />
       </map>
     </option>

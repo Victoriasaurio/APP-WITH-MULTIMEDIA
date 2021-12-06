@@ -50,4 +50,11 @@
         android:onClick="audio"
         android:text="Grabar Audio" />
 
+    <Button
+        android:id="@+id/temp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToTemperature"
+        android:text="Temperature" />
+
 </LinearLayout>

@@ -98,4 +98,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Audio.class);
         startActivity(intent);
     }
+
+    public void  goToTemperature(View view) {
+        Intent intent = new Intent(this, Temperature.class);
+        startActivity(intent);
+    }
 }
